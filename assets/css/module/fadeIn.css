@@ -1,0 +1,13 @@
+.fd-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: font-size 0.5s, opacity 0.5s, transform 0.5s;
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -webkit-transition: font-size 0.5s, opacity 0.5s, transform 0.5s;
+    -moz-transition: font-size 0.5s, opacity 0.5s, transform 0.5s;
+    -ms-transition: font-size 0.5s, opacity 0.5s, transform 0.5s;
+    -o-transition: font-size 0.5s, opacity 0.5s, transform 0.5s;
+}

@@ -26,7 +26,6 @@
 
 body {
     /* padding-top: 50px; */
-    overflow-x: hidden;
 }
 
 .bd-placeholder-img {
@@ -178,7 +177,7 @@ html[data-bs-theme="dark"] .nav {
     background-color: var(--bs-secondary-bg) !important;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 720px) {
     .top-bar header div {
         flex-direction: column !important;
     }
@@ -192,4 +191,17 @@ html[data-bs-theme="dark"] .nav {
         margin-top: 15px;
     }
 
+    main.container div {
+        width: 100%;
+        margin: auto;
+    }
+
+    main.container div div {
+        text-align: center !important;
+        margin-top: 10px;
+    }
+
+    main a {
+        margin-top: 20px;
+    }
 }
