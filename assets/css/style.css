@@ -21,10 +21,12 @@
 
 * {
     font-family: Vazir;
+    box-sizing: border-box !important;
 }
 
 body {
     /* padding-top: 50px; */
+    overflow-x: hidden;
 }
 
 .bd-placeholder-img {
@@ -174,4 +176,20 @@ html[data-bs-theme="dark"] .top-bar {
 
 html[data-bs-theme="dark"] .nav {
     background-color: var(--bs-secondary-bg) !important;
+}
+
+@media screen and (max-width: 576px) {
+    .top-bar header div {
+        flex-direction: column !important;
+    }
+
+    .top-bar header div div {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .top-bar header div div:nth-child(2) {
+        margin-top: 15px;
+    }
+
 }
